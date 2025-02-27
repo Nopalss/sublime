@@ -1,5 +1,6 @@
 import { FaFacebook, FaTelegram, FaPinterest } from "react-icons/fa6";
-import { RiInstagramFill } from "react-icons/ri";
+import { BsStars } from "react-icons/bs";
+import { RiInstagramFill, RiMenuLine } from "react-icons/ri";
 import Button from "../components/Button";
 
 export default function Navbar() {
@@ -15,8 +16,11 @@ export default function Navbar() {
       </span>
     </div>
     <div className="bg-white px-12 py-3 text-black flex flex-row justify-between items-center">
-      <h1 className="text-3xl font-bold">Sublime</h1>
-      <nav className="hidden md:flex flex-row gap-6">
+      <span className="flex flex-row gap-3 items-center">
+        <h1 className="text-3xl font-bold">Sublime</h1>
+        <BsStars className="text-2xl" />
+      </span>
+      <nav className="hidden md:flex flex-row md:gap-4 lg:gap-6">
         <a>Home</a>
         <a>Company</a>
         <a>Pricing</a>
@@ -26,6 +30,9 @@ export default function Navbar() {
       <span className="hidden md:flex flex-row gap-5 items-center">
         <a>Sign In</a>
         <Button>Sign Up for free</Button>
+      </span>
+      <span className="block md:hidden text-2xl">
+        <a><RiMenuLine /></a>
       </span>
     </div>
     </>
