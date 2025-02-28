@@ -47,8 +47,7 @@ export const Products = () => {
       description: 'Sublime is easy to use and totally customizable to your business needs.',
       icon: <TfiAnnouncement className='text-5xl' />
     }
-  ]
-
+  ];
 
   return (
     <div className='mt-40'>
