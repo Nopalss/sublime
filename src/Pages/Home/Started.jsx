@@ -6,10 +6,10 @@ import page from "../../img/pages.png";
 
 const Started = () => {
   return (
-    <>
+    <div className="flex flex-row">
       <TextStarted />
       <ImageStarted />
-    </>
+    </div>
   );
 };
 
