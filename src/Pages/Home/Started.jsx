@@ -28,7 +28,7 @@ const TextStarted = () => {
           className="outline-none px-2 w-3/5"
           placeholder="Enter your mail address"
         />
-        <Button>Get Started</Button>
+        <Button customClass="bg-black text-white hover:bg-gray-700">Get Started</Button>
       </div>
       <div className="flex justify-between items-center">
         <p className="flex items-center gap-2">

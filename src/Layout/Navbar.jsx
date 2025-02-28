@@ -49,7 +49,7 @@ export default function Navbar() {
         </nav>
         <span className="hidden md:flex flex-row gap-5 items-center">
           <a>Sign In</a>
-          <Button>Sign Up for free</Button>
+          <Button customClass="bg-black text-white hover:bg-gray-700">Sign Up for free</Button>
         </span>
         <span className="block md:hidden text-2xl">
           <a>
