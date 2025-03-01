@@ -5,6 +5,7 @@ import Counter from "./Counter";
 import { Products } from "./Products";
 import Overview from "./Overview";
 import Overview2 from "./Overview2";
+import CustomerSupport from "./CustomerSupport";
 const Home = () => {
   return (
     <Container>
@@ -13,6 +14,7 @@ const Home = () => {
       <Products />
       <Overview />
       <Overview2 />
+      <CustomerSupport />
     </Container>
   );
 };
