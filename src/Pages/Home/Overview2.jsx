@@ -19,7 +19,7 @@ const Overview2 = () => {
         <img src={iconImage} alt="icon" className="w-20" />
         <h3 className="text-4xl">Provide powerful solutions at all times.</h3>
         <div className="relative">
-          <div className="relative z-20 flex flex-col gap-6 p-5 bg-white border-2 border-gray-100 rounded-t-xl rounded-bl-xl">
+          <div className="relative z-20 flex flex-col gap-6 p-5 bg-white border-2 border-gray-200 rounded-t-xl rounded-bl-xl">
             <p className="italic">
               "Sublime took our business to the next level. It provided the
               solution we were hunting for at an affordable price and was easy
