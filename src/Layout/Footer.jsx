@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr />
+      <hr className='border-gray-300' />
       <div className='relative z-30 flex flex-row justify-between items-center py-6'>
         <p className='text-gray-600'>&copy; 2023 Sublime. All rights reserved.</p>
         <span className='flex flex-row text-gray-500'>
