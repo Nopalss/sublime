@@ -69,7 +69,7 @@ const CustomerSupport = () => {
 
 const OurSupport = () => {
   return (
-    <div className="relative">
+    <div className="relative pb-20">
       <div className=" relative grid grid-cols-3 gap-7 mt-20 z-20 ">
         {ourService.map((data, index) => {
           return (

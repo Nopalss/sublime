@@ -7,6 +7,8 @@ import Overview from "./Overview";
 import Overview2 from "./Overview2";
 import CustomerSupport from "./CustomerSupport";
 import BannerBottom from "./BannerBottom";
+import Benefit from "./Benefit";
+
 const Home = () => {
   return (
     <Container>
@@ -16,6 +18,7 @@ const Home = () => {
       <Overview />
       <Overview2 />
       <CustomerSupport />
+      <Benefit />
       <BannerBottom />
     </Container>
   );
