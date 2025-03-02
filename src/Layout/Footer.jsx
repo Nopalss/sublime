@@ -6,7 +6,7 @@ import Container from '../components/Container'
 const Footer = () => {
   return (
     <Container>
-      <div className='flex flex-row flex-wrap justify-between'>
+      <div className='relative z-30 bg-white py-20 flex flex-row flex-wrap justify-between'>
         <div className='flex flex-col justify-center items-start gap-6 max-w-2/8'>
           <h2 className='text-2xl font-bold'>
             Sublime
@@ -29,14 +29,21 @@ const Footer = () => {
           <div className='text-gray-600'>
             <h3 className='font-semibold uppercase'>Features</h3>
             <ul className='flex flex-col gap-3 mt-3'>
-              <li>Home</li>
-              <li>About</li>
-              <li>Pricing</li>
-              <li>Blog</li>
-              <li>Contact</li>
+              <li>Blog Detail</li>
+              <li>Login</li>
+              <li>Sign Up</li>
+              <li>404 Page</li>
             </ul>
           </div>
         </div>
+      </div>
+      <hr />
+      <div className='relative z-30 flex flex-row justify-between items-center py-6'>
+        <p className='text-gray-600'>&copy; 2023 Sublime. All rights reserved.</p>
+        <span className='flex flex-row text-gray-500'>
+          <button className='py-1 px-5 border-r-2 border-gray-200 rounded-none'>Legal</button>
+          <button className='py-1 px-5 '>Terms & Conditions</button>
+        </span>
       </div>
     </Container>
   )
