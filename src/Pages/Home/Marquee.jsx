@@ -86,6 +86,7 @@ const MarqueeSlider = () => {
           transition={{
             ease: "linear",
             duration: 10,
+            repeat: Infinity,
           }}
           drag="x"
           dragConstraints={{ left: -300, right: 300 }}
