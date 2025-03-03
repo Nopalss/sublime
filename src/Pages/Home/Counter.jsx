@@ -20,7 +20,7 @@ const Counter = () => {
   ];
 
   return (
-    <div className='mt-56 border-y-2 border-gray-200 p-10 flex flex-row gap-4 justify-between'>
+    <div className='mt-56 border-y-2 border-gray-200  p-10 flex flex-row flex-wrap gap-4 justify-between'>
       <span className='max-w-2/5'>
         <p className='text-4xl'>15.000+ happy customers.</p>
         <p className='text-gray-400 mt-3'>Using Sublime everyday and loving it!</p>

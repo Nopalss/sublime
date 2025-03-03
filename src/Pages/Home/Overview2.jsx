@@ -6,8 +6,8 @@ import { BsArrowRight } from "react-icons/bs";
 
 const Overview2 = () => {
   return (
-    <div className="my-48 flex flex-row flex-wrap justify-between px-20">
-      <div className="w-1/2 relative flex flex-col justify-end">
+    <div className="my-48 flex flex-row flex-wrap justify-between gap-10 md:px-10 lg:px-20">
+      <div className="flex flex-col justify-end order-last lg:w-1/2 lg:order-first relative">
         <img
           src={imageOverview}
           alt="icon"
@@ -15,7 +15,7 @@ const Overview2 = () => {
         />
         <div className="absolute w-full h-full top-5 bottom-5 z-10 bg-gradient-to-r from-[#46F883] to-[#FFDD00] opacity-36 blur-[50px] rounded-full"></div>
       </div>
-      <div className="flex flex-col gap-5 w-2/5">
+      <div className="flex flex-col gap-5 order-first lg:w-2/5 lg:order-last">
         <img src={iconImage} alt="icon" className="w-20" />
         <h3 className="text-4xl">Provide powerful solutions at all times.</h3>
         <div className="relative">

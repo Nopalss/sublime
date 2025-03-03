@@ -7,8 +7,8 @@ import Button from '../../components/Button';
 
 const Overview = () => {
   return (
-    <div className='mt-48 flex flex-row flex-wrap justify-between px-20'>
-      <div className='flex flex-col gap-5 w-2/5'>
+    <div className='mt-48 flex flex-row flex-wrap gap-10 justify-center md:px-10 lg:justify-between lg:px-20'>
+      <div className='flex flex-col gap-5 lg:w-2/5'>
         <img src={iconImage} alt="icon" className='w-20' />
         <h3 className='text-4xl'>Provide powerful 
         solutions at all times.</h3>
@@ -22,7 +22,7 @@ const Overview = () => {
           Learn More <FaArrowRight className='inline ml-2' />
         </Button>
       </div>
-      <div className='w-1/2 relative flex flex-col justify-end'>
+      <div className='lg:w-1/2 relative flex flex-col justify-end'>
         <img src={imageOverview} alt="icon" className='relative w-100 z-20 bg-transparent self-center' />
         <div className='absolute w-full h-full top-5 bottom-5 z-10 bg-gradient-to-r from-[#46F883] to-[#FFDD00] opacity-36 blur-[50px] rounded-full'></div>
       </div>

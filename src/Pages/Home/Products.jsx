@@ -52,10 +52,10 @@ export const Products = () => {
   return (
     <div className='mt-40'>
       <h5 className='uppercase'>Sublime Products</h5>
-      <div className='flex flex-row gap-6 items-end'>
-        <h1 className='text-6xl max-w-1/2'>Provide powerful 
+      <div className='flex flex-col items-center gap-10 lg:flex-row lg:justify-between'>
+        <h1 className='text-6xl lg:w-1/2'>Provide powerful 
         solutions at all times.</h1>
-        <div className='max-w-1/2'>
+        <div className='lg:w-3/6'>
           <span className='flex flex-row gap-3 items-center'>
             <FaStarOfLife className='text-xl'/>
             <TiStarburst className='text-2xl' />
@@ -65,7 +65,7 @@ export const Products = () => {
         </div>
       </div>
       <div className='relative flex flex-col'>
-        <div className='relative z-20 bg-transparent grid grid-cols-3 justify-evenly gap-10 mt-10'>
+        <div className='relative z-20 bg-transparent grid lg:grid-cols-3 md:grid-cols-2 justify-evenly gap-10 mt-10'>
           { dummyData.map((data) => (
             <div key={data.id} className='rounded-xl p-8 flex flex-col gap-8 items-start border-2 border-gray-100 bg-white shadow-lg'>
             {data.icon}

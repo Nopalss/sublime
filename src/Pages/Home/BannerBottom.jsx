@@ -9,8 +9,8 @@ import sunIcon from '../../img/icon/sun.png';
 const BannerBottom = () => {
   return (
     <Container>
-      <div className="relative z-10 flex flex-row justify-between mt-36">
-        <div className='relative z-20 max-w-2/5'>
+      <div className="relative z-10 flex flex-row flex-wrap justify-between gap-10 mt-36">
+        <div className='relative z-20 lg:max-w-2/5'>
           <h2 className='text-6xl'>Start your <br /> 7-day free trial</h2>
           <span className='flex flex-row gap-6 mt-6'>
             <p>
