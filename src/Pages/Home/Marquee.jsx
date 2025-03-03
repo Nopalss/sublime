@@ -106,7 +106,7 @@ const MarqueeSlider = () => {
           ))}
         </motion.div>
       </div>
-      <div className="absolute -z-10 w-full h-full bg-gradient-to-r from-[#46F883] to-[#FFDD00] opacity-60 blur-[100px] left-10 right-10 top-0"></div>
+      <div className="absolute -z-10 w-full h-[400px] bg-gradient-to-r from-[#46F883] to-[#FFDD00] opacity-60 blur-[150px] left-10 right-10 top-0"></div>
     </div>
   );
 };

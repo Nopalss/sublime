@@ -10,6 +10,8 @@ import BannerBottom from "./BannerBottom";
 import Benefit from "./Benefit";
 import Marquee from "./Marquee";
 import Testimonial from "./Testimonial";
+import Blog from "./Blog";
+
 const Home = () => {
   return (
     <Container>
@@ -21,6 +23,7 @@ const Home = () => {
       <CustomerSupport />
       <Benefit />
       <Marquee />
+      <Blog />
       <Testimonial />
       <BannerBottom />
     </Container>

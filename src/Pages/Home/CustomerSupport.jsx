@@ -32,7 +32,7 @@ const ourService = [
 ];
 const CustomerSupport = () => {
   return (
-    <div className="px-30">
+    <div className="xl:px-30 lg:px-10">
       <div className="flex justify-between">
         {/* image and tulisan */}
         <div className=" flex items-center gap-15">
@@ -57,7 +57,7 @@ const CustomerSupport = () => {
         {/* logo */}
         <div className="flex  gap-5 items-end">
           {logo.map((logo, index) => {
-            return <img src={logo} className="w-[20px] h-[20px]" />;
+            return <img src={logo} className="w-[20px] h-[20px]" key={index} />;
           })}
         </div>
       </div>
@@ -70,7 +70,7 @@ const CustomerSupport = () => {
 const OurSupport = () => {
   return (
     <div className="relative pb-20">
-      <div className=" relative grid grid-cols-3 gap-7 mt-20 z-20 ">
+      <div className=" relative grid xl:grid-cols-3 sm:grid-cols-1 lg:grid-cols-2 gap-10 place-items-center mt-20 z-20 ">
         {ourService.map((data, index) => {
           return (
             <div
