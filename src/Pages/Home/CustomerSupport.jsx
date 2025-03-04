@@ -33,7 +33,7 @@ const ourService = [
 const CustomerSupport = () => {
   return (
     <div className="">
-      <div className="flex justify-between ">
+      <div className="flex justify-between top">
         {/* image and tulisan */}
         <div className=" flex sm:items-center sm:gap-15 gap-5 sm:flex-row flex-col">
           <div className="flex space-x-[-20px]">
@@ -71,7 +71,7 @@ const CustomerSupport = () => {
 
 const OurSupport = () => {
   return (
-    <div className="relative pb-20">
+    <div className="relative pb-20 bottom">
       <div className=" relative flex gap-5 mt-20 z-20 flex-wrap justify-center px-2 ">
         {ourService.map((data, index) => {
           return (

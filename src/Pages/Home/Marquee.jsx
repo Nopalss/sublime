@@ -26,7 +26,7 @@ const marqueeItems = [
 
 const Marquee = () => {
   return (
-    <div className="">
+    <div className="top">
       <div className="flex  items-center gap-10 justify-between flex-wrap xl:px-20">
         <div className="flex flex-col gap-4">
           <p className="font-semibold text-gray-600">SUBLIME PRODUCTS</p>

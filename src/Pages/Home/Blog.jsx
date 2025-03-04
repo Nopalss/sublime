@@ -33,7 +33,7 @@ const blogData = [
 const Blog = () => {
   return (
     <div className="py-10 xl:px-20 pt-20 flex flex-col gap-14">
-      <div className="flex justify-between items-end z-20 flex-wrap gap-10">
+      <div className="flex justify-between items-end z-20 flex-wrap gap-10 right">
         <div className="xl:w-[350px]">
           <h1 className="text-5xl lg:text-6xl">Most Popular Blog</h1>
         </div>
@@ -56,7 +56,7 @@ const Blog = () => {
           </Button>
         </div>
       </div>
-      <div className="flex justify-center items-center gap-8 flex-wrap relative ">
+      <div className="flex justify-center items-center gap-8 flex-wrap relative bottom">
         {blogData.map((data, index) => {
           return (
             <div

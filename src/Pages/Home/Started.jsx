@@ -15,7 +15,7 @@ const Started = () => {
 
 const TextStarted = () => {
   return (
-    <div className="flex flex-col gap-6 w-full md:w-3/5 lg:w-2/5 mt-[4em] md:order-1   order-2 relative">
+    <div className="flex flex-col gap-6 w-full md:w-3/5 lg:w-2/5 mt-[4em] md:order-1 left order-2 relative">
       <div className="absolute flex md:hidden top-90 bg-gradient-to-r w-full h-[244px] from-[#FFDD00] to-[#46F883] opacity-56 blur-[99px] "></div>
       <p className="text-lg text-gray-400">55,000+ trusted Businesses</p>
       <h1 className="text-7xl">Build your next project faster.</h1>
@@ -49,7 +49,7 @@ const TextStarted = () => {
 
 const ImageStarted = () => {
   return (
-    <div className="md:w-[500px] lg:w-3/5 relative order-1 hidden md:flex">
+    <div className="md:w-[500px] lg:w-3/5 relative order-1 hidden md:flex right">
       <div className="md:absolute top-[10em] bg-gradient-to-r w-full h-[344px] from-[#FFDD00] to-[#46F883] opacity-56 blur-[99px]"></div>
       <img
         src={page}
