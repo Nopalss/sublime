@@ -32,16 +32,16 @@ const ourService = [
 ];
 const CustomerSupport = () => {
   return (
-    <div className="xl:px-30 lg:px-10">
-      <div className="flex justify-between">
+    <div className="">
+      <div className="flex justify-between ">
         {/* image and tulisan */}
-        <div className=" flex items-center gap-15">
+        <div className=" flex sm:items-center sm:gap-15 gap-5 sm:flex-row flex-col">
           <div className="flex space-x-[-20px]">
             {profileImage.map((profile, index) => {
               return (
                 <img
                   src={profile}
-                  className="w-[96px] h-[96px] "
+                  className="w-[70px] h-[70px] sm:w-[80px] sm:h-[80px] lg:w-[96px] lg:h-[96px] "
                   alt=""
                   key={index}
                 />
@@ -49,15 +49,17 @@ const CustomerSupport = () => {
             })}
           </div>
           <div>
-            <h1 className="text-5xl font-normal">
+            <h1 className="text-4xl  lg:text-5xl font-normal">
               Powerful <br /> Customer Support
             </h1>
           </div>
         </div>
         {/* logo */}
-        <div className="flex  gap-5 items-end">
+        <div className="gap-5 items-end hidden sm:flex">
           {logo.map((logo, index) => {
-            return <img src={logo} className="w-[20px] h-[20px]" key={index} />;
+            return (
+              <img src={logo} className="w-[20px] h-[20px] " key={index} />
+            );
           })}
         </div>
       </div>
@@ -70,12 +72,12 @@ const CustomerSupport = () => {
 const OurSupport = () => {
   return (
     <div className="relative pb-20">
-      <div className=" relative grid xl:grid-cols-3 sm:grid-cols-1 lg:grid-cols-2 gap-10 place-items-center mt-20 z-20 ">
+      <div className=" relative flex gap-5 mt-20 z-20 flex-wrap justify-center px-2 ">
         {ourService.map((data, index) => {
           return (
             <div
               key={index}
-              className="bg-white p-10 w-[376px] h-[297.19px] rounded-2xl shadow flex flex-col justify-center gap-5 items-center text-center"
+              className="bg-white p-10 w-full sm:w-[350px] h-[297.19px] rounded-2xl shadow flex flex-col justify-center gap-5 items-center text-center"
             >
               <img src={data.icon} alt="" className="w-[48px] h-[48px]" />
               <h1 className="text-2xl">{data.heading}</h1>
@@ -84,7 +86,7 @@ const OurSupport = () => {
           );
         })}
       </div>
-      <div className="absolute w-full h-full top-0 left-30 right-30 bg-gradient-to-r from-[#FFDD00] to-[#46F883] opacity-56 blur-[100px]"></div>
+      <div className="absolute w-full h-full top-0 right-30 bg-gradient-to-r from-[#FFDD00] to-[#46F883] opacity-56 blur-[100px]"></div>
     </div>
   );
 };

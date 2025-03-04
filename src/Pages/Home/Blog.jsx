@@ -32,10 +32,10 @@ const blogData = [
 
 const Blog = () => {
   return (
-    <div className="py-10 px-20 pt-20 flex flex-col gap-14">
-      <div className="flex justify-between items-end z-20">
-        <div className="w-[350px]">
-          <h1 className="text-6xl">Most Popular Blog</h1>
+    <div className="py-10 xl:px-20 pt-20 flex flex-col gap-14">
+      <div className="flex justify-between items-end z-20 flex-wrap gap-10">
+        <div className="xl:w-[350px]">
+          <h1 className="text-5xl lg:text-6xl">Most Popular Blog</h1>
         </div>
         <div className="flex flex-col w-[380px] gap-7 ">
           <div className="flex gap-6">
@@ -72,7 +72,7 @@ const Blog = () => {
             </div>
           );
         })}
-        <div className="absolute w-[800px] h-full bg-gradient-to-r from-[#46f88493] to-[#ffdd00a0] opacity-100 blur-[200px] "></div>
+        <div className="absolute w-full h-full bg-gradient-to-r from-[#46f88493] to-[#ffdd00a0] opacity-100 blur-[200px] "></div>
       </div>
     </div>
   );
